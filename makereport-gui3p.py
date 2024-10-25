@@ -617,7 +617,7 @@ class REPORTGEN():
         self.nsite = nsite
         self.nslot = nslot
         ## 從模板檔案 建立 powerpoint物件: => prs
-        self.prs=Presentation(" Metrology service report for-[Customer1]_[date].pptx")
+        self.prs=Presentation("Metrology service report for-[Customer1]_[date].pptx")
         self.df2 = df2
         self.nset_per_page = nset_per_pages
         
